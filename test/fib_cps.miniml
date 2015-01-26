@@ -1,0 +1,9 @@
+(* CPS フィボナッチ関数 *)
+
+let rec fib = fun x -> fun k ->
+  if x <= 2 then k 1
+  else fib (x - 1) (fun a -> fib (x - 2) (fun b -> k (a + b)))
+in
+fib 23 (fun x -> x)
+
+
