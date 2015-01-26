@@ -8,7 +8,7 @@ ZAM (Zinc Abstract Machine) の実験コード
 - 簡単な工夫で高速化したZAM (-zam_fast1)
 - 再帰にrefを使わないZAM (-zam_pure)
 - 講義資料に準拠したZAM (-zam_pure2)
-- 
+
 ## 実行方法
 - `make` でバイトコードコンパイル．
 - `make nc` でネイティブコードコンパイル．
